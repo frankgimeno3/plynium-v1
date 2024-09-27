@@ -1,10 +1,7 @@
 import React, { FC } from 'react';
 
-interface NavUnlogggedWebProps {
-  
-}
 
-const NavUnlogggedWeb: FC<NavUnlogggedWebProps> = ({ }) => {
+const NavUnlogggedWeb: FC= ({ }) => {
   return (
     <div>NavUnlogggedWeb</div>
   );

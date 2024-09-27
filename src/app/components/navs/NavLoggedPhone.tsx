@@ -1,10 +1,6 @@
 import React, { FC } from 'react';
-
-interface NavLoggedPhoneProps {
-  
-}
-
-const NavLoggedPhone: FC<NavLoggedPhoneProps> = ({ }) => {
+ 
+const NavLoggedPhone: FC = ({ }) => {
   return (
     <div>NavLoggedPhone</div>
   );
