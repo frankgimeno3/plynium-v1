@@ -12,8 +12,14 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ['Inter', 'Arial', 'Helvetica', 'sans-serif'], 
+        serif: ['Georgia', 'serif'],
+        gruppo: ['"Gruppo"', 'sans-serif'],  
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
