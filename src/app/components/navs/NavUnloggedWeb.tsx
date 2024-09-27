@@ -22,11 +22,11 @@ const NavUnlogggedWeb: FC<NavUnoggedWebProps> = ({ pestanaSelected, setPestanaSe
           </div>
           <div className='flex flex-row items-center'>
             <p className='text-5xl ml-8 text-3xl text-gray-200 font-gruppo'>Plynium</p>
-            <p className='font-gruppo mt-4 ml-3 text-2xl bg-gray-100 bg-opacity-5 px-2 rounded-xl pb-1'>. com</p>
+            <p className='font-gruppo mt-4 ml-3 text-2xl bg-gray-100 bg-opacity-5 px-2 rounded-xl pb-1'>NEWS</p>
           </div>
         </div>
         <div className='flex flex-row '>
-          <p>Elementos menu arriba</p>
+          <p>Log in, Sign Up, LINK TO OTHER PLINIUM SITES</p>
         </div>
       </div>
       <div className='flex flex-row bg-gray-200 bg-opacity-5 pl-24 pl-24 text-xl mt-1 '>
