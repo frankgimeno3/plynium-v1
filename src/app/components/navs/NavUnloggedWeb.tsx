@@ -14,7 +14,7 @@ const NavUnlogggedWeb: FC<NavUnoggedWebProps> = ({ pestanaSelected, setPestanaSe
   }
 
   return (
-    <div className=' fixed top-0 left-0 right-0 z-10 flex flex-col h-50 w-full  bg-zinc-900 bg-opacity-90 pb-1'>
+    <div className=' fixed top-0 left-0 right-0 z-10 flex flex-col h-50 w-full  bg-zinc-900 bg-opacity-90 '>
       <div className='flex flex-row h-full text-gray-100 justify-between items-center py-4 px-6'>
         <div className='flex flex-row items-center p-1 rounded pr-5 hover:opacity-90 hover-shadow pl-6'>
           <div className='h-full w-10 '>
@@ -29,8 +29,8 @@ const NavUnlogggedWeb: FC<NavUnoggedWebProps> = ({ pestanaSelected, setPestanaSe
           <p>Elementos menu arriba</p>
         </div>
       </div>
-      <div className='flex flex-row bg-gray-200 bg-opacity-5 pl-24 pl-24 text-xl mt-1'>
-        <p className={`p-4 mr-4 hover:bg-opacity-50 hover:bg-gray-200 ${pestanaSelected === 'portada' ? 'bg-gray-100 bg-opacity-10' : ''}`}
+      <div className='flex flex-row bg-gray-200 bg-opacity-5 pl-24 pl-24 text-xl mt-1 '>
+        <p className={`p-4 mr-4 hover:bg-opacity-50 hover:bg-gray-200 pb-1 ${pestanaSelected === 'portada' ? 'bg-gray-100 bg-opacity-10' : ''}`}
         onClick={()=>cambiarpestana("portada")}>Portada</p>
         <p className={`p-4 mr-4 hover:bg-opacity-50 hover:bg-gray-200 ${pestanaSelected === 'startups' ? 'bg-gray-100 bg-opacity-10' : ''}`}
         onClick={()=>cambiarpestana("startups")}>Startups</p>

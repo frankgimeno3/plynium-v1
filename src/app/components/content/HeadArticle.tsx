@@ -9,7 +9,7 @@ interface HeadArticleProps {
 const HeadArticle: FC<HeadArticleProps> = ({ }) => {
     return (
         <div className='flex flex-col justify-start bg-transparent 
-         rounded p-5  my-5 mr-5 bg-gray-300 bg-opacity-5  hover:bg-white hover:bg-opacity-5 rounded-xl'>
+         rounded p-5  my-5 mr-5 bg-gray-300 bg-opacity-5  hover:bg-white hover:bg-opacity-5 rounded-xl '>
 
             <p className='font-gruppo text-5xl font-bold '>Titulo grande de lo que es la noticia, titulo grande de lo que es la noticia</p>
             <div className='flex flex-row pb-5 justify-start mt-5'>
