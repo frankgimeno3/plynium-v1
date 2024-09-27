@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -19,11 +19,11 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Inter', Arial, Helvetica, sans-serif; /* Fuente principal */
+  font-family: 'Roboto', 'Inter', Arial, Helvetica, sans-serif;  
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Georgia', serif; /* Fuentes para encabezados */
+  font-family: 'Montserrat', 'Georgia', serif; 
 }
 
 @layer utilities {

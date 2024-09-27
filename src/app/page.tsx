@@ -1,19 +1,59 @@
-"use client" 
- 
+"use client"
+
 import { useState } from "react";
 import NavUnlogggedWeb from "./components/navs/NavUnloggedWeb";
+import MiniatureCard from "./components/content/MiniatureCard";
+import HeadArticle from "./components/content/HeadArticle";
 
 export default function Home() {
 
-  const [pestanaSelected, setPestanaSelected]=useState("portada")
+  const [pestanaSelected, setPestanaSelected] = useState("portada")
 
-  
+
   return (
-     <div className="flex flex-col min-h-screen">
-      <NavUnlogggedWeb pestanaSelected={pestanaSelected} setPestanaSelected={setPestanaSelected}/>
-      <div className="p-5">
-        <p>Contenido {pestanaSelected}</p>
+    <div className="flex flex-col min-h-screen">
+      <NavUnlogggedWeb pestanaSelected={pestanaSelected} setPestanaSelected={setPestanaSelected} />
+      <div className="flex flex-row  justify-between mr-56">
+        <div className="flex flex-col ">
+
+          <div className=" mt-56 bg-white bg-opacity-5 mx-24 p-2 ">
+            <p className=" text-white text-3xl font-gruppo font-bold pl-3">Portada</p>
+          </div>
+
+
+          <div className="flex flex-row  mx-24">
+            <HeadArticle />
+
+            <div className="flex flex-col justify-right">
+              <MiniatureCard />
+              <MiniatureCard />
+              <MiniatureCard />
+
+            </div>
+          </div>
+
+          <div className=" mt-44 bg-white bg-opacity-5 mx-24 p-2 ">
+            <p className=" text-white text-3xl font-gruppo font-bold pl-3">Portada</p>
+          </div>
+
+
+          <div className="flex flex-row  mx-24">
+            <HeadArticle />
+
+            <div className="flex flex-col justify-right">
+              <MiniatureCard />
+              <MiniatureCard />
+              <MiniatureCard />
+
+            </div>
+          </div>
+
+        </div>
+        <div className="fixed right-0 top-0 z-50 flex flex-col bg-gray-400 px-12  mt-44 w-56 h-screen">
+          <p className="mx-auto w-full">.</p>
+        </div>
       </div>
-     </div>
+
+    </div>
   );
 }

@@ -16,6 +16,9 @@ const config: Config = {
         sans: ['Inter', 'Arial', 'Helvetica', 'sans-serif'], 
         serif: ['Georgia', 'serif'],
         gruppo: ['"Gruppo"', 'sans-serif'],  
+        montserrat: ['Montserrat', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+
       },
     },
   },
