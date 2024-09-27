@@ -2,6 +2,7 @@
   "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
     "@typescript-eslint/no-empty-interface": "off",  // Si es una interface vacía
-    "@typescript-eslint/no-empty-object-type": "off"  // Si es un objeto vacío
+    "@typescript-eslint/no-empty-object-type": "off",  // Si es un objeto vacío
+    "@typescript-eslint/no-explicit-any":"off"
   }
 }
