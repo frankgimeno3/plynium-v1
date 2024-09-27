@@ -1,13 +1,13 @@
 import React, { FC } from 'react';
 
-interface ForgotProps {
+interface UnloggedArticleProps {
   
 }
 
-const Forgot: FC<ForgotProps> = ({ }) => {
+const UnloggedArticle: FC<UnloggedArticleProps> = ({ }) => {
   return (
-    <div>Forgot</div>
+    <div>UnloggedArticle</div>
   );
 };
 
-export default Forgot;
+export default UnloggedArticle;

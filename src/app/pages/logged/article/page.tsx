@@ -1,13 +1,13 @@
 import React, { FC } from 'react';
 
-interface ForgotProps {
+interface LoggedArticleProps {
   
 }
 
-const Forgot: FC<ForgotProps> = ({ }) => {
+const LoggedArticle: FC<LoggedArticleProps> = ({ }) => {
   return (
-    <div>Forgot</div>
+    <div>LoggedArticle</div>
   );
 };
 
-export default Forgot;
+export default LoggedArticle;

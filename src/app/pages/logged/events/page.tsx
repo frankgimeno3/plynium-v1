@@ -1,13 +1,13 @@
 import React, { FC } from 'react';
 
-interface ForgotProps {
+interface LoggedEventsProps {
   
 }
 
-const Forgot: FC<ForgotProps> = ({ }) => {
+const LoggedEvents: FC<LoggedEventsProps> = ({ }) => {
   return (
-    <div>Forgot</div>
+    <div>LoggedEvents</div>
   );
 };
 
-export default Forgot;
+export default LoggedEvents;
