@@ -29,7 +29,7 @@ const NavUnlogggedWeb: FC<NavUnoggedWebProps> = ({ pestanaSelected, setPestanaSe
           <p>Log in, Sign Up, LINK TO OTHER PLINIUM SITES</p>
         </div>
       </div>
-      <div className='flex flex-row bg-gray-200 bg-opacity-5 pl-24 pl-24 text-xl mt-1 '>
+      <div className='flex flex-row bg-gray-200 bg-opacity-5 pl-24 pl-24 text-lg mt-1 '>
         <p className={`p-4 mr-4 hover:bg-opacity-50 hover:bg-gray-200 pb-1 ${pestanaSelected === 'portada' ? 'bg-gray-100 bg-opacity-10' : ''}`}
         onClick={()=>cambiarpestana("portada")}>Portada</p>
         <p className={`p-4 mr-4 hover:bg-opacity-50 hover:bg-gray-200 ${pestanaSelected === 'startups' ? 'bg-gray-100 bg-opacity-10' : ''}`}

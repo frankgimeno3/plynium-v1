@@ -4,6 +4,7 @@ import { useState } from "react";
 import NavUnlogggedWeb from "./components/navs/NavUnloggedWeb";
 import MiniatureCard from "./components/content/MiniatureCard";
 import HeadArticle from "./components/content/HeadArticle";
+import OtherNews from "./components/content/OtherNews";
 
 export default function Home() {
 
@@ -16,35 +17,33 @@ export default function Home() {
       <div className="flex flex-row  justify-between mr-96">
         <div className="flex lg:flex-col ">
 
-          <div className=" mt-56 bg-white bg-opacity-5 mx-24 p-2 ">
-            <p className=" text-white text-3xl font-gruppo font-bold pl-3">Portada</p>
+          <div className="flex flex-row justify-between mt-56 bg-white bg-opacity-5 mx-24 p-2 ">
+            <p className=" text-white text-3xl font-gruppo font-bold pl-3">Septiembre 2024, Semana 2</p>
+            <button className='px-3 py-1 bg-zinc-900 rounded-md hover:bg-zinc-800 text-gray-100  text-md'>
+              Ver todas las noticias de la semana
+            </button>
           </div>
-
-
-          <div className="flex flex-row  mx-24">
+          <div className="flex flex-row  mx-24  bg-white text-gray-600  opacity-90 ">
             <HeadArticle />
-
-            <div className="flex flex-col justify-right">
+            <div className="flex flex-col justify-between  ">
               <MiniatureCard />
               <MiniatureCard />
-              <MiniatureCard />
-
+              <OtherNews />
             </div>
           </div>
 
-          <div className=" mt-44 bg-white bg-opacity-5 mx-24 p-2 ">
-            <p className=" text-white text-3xl font-gruppo font-bold pl-3">Portada</p>
+          <div className="flex flex-row justify-between mt-24 bg-white bg-opacity-5 mx-24 p-2 ">
+            <p className=" text-white text-3xl font-gruppo font-bold pl-3">Septiembre 2024, Semana 1</p>
+            <button className='px-3 py-1 bg-zinc-800 rounded-md hover:bg-zinc-900 text-gray-100  text-md'>
+              Ver todas las noticias de la semana
+            </button>
           </div>
-
-
-          <div className="flex flex-row  mx-24">
+          <div className="flex flex-row  mx-24  bg-white text-gray-600  opacity-90 ">
             <HeadArticle />
-
-            <div className="flex flex-col justify-right w-1/2 ">
+            <div className="flex flex-col justify-between  ">
               <MiniatureCard />
               <MiniatureCard />
-              <MiniatureCard />
-
+              <OtherNews />
             </div>
           </div>
 
